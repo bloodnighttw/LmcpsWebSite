@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>主頁</title>
+    <style>
+
+        .vertical-center {
+          min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+          min-height: 100vh; /* These two lines are counted as one :-)       */
+
+          display: flex;
+          align-items: center;
+        }
+
+        img.center{
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            height: 100px;
+            width: 100px;
+        }
+
+        .h-divider{
+            margin-top:5px;
+            margin-bottom:5px;
+            height:5px;
+            width:100%;
+            border-top:5px solid #000000;
+        }
+
+        .float-right p{
+            display: inline;
+        }
+
+        .float-left img{
+            size: auto;
+            max-height: 40%;
+            max-width: 40%;
+            display: inline;
+
+        }
+
+        .container-size{
+            max-width: 70%;
+            overflow: hidden;
+
+        }
+
+        .container-max{
+            width: 100%;
+            flex-wrap: wrap;
+            overflow: hidden;
+        }
+
+        .container1{
+            height: 200px;
+        }
+
+
+    </style>
+
+    <!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="vertical-center">
+    <div class="container shadow p-3 mb-5 bg-white rounded " >
+       <h1 style="text-align: center ;white-space: nowrap" >Lmcps 黎明資訊社</h1>
+
+        <div class="dropdown-divider"></div>
+        <br>
+
+
+        <div class="container container1">
+
+            <div class="float-left container-size">
+                <br>
+                <img src="https://i.ytimg.com/vi/wrFmRxQ73-Y/maxresdefault.jpg">
+
+            </div>
+
+
+            <div class="float-right" style="white-space: nowrap">
+                <div class="container" style="margin-right: auto">
+                    <h3 style="white-space: pre">  介紹</h3>
+                    <div class="h-divider" ></div>
+                </div>
+
+            </div>
+            <br>
+            <br>
+            <br>
+
+            <div class="float-right">
+                <div class="container">
+                    <p>我們是黎明高中的資訊社(LMcps)，熱</p><br>
+                    <p>愛討論程式題目與探討電腦知識。</p><br>
+                    <br>
+                    <p>我們社團非常年輕，同時也自覺有許</p><br>
+                    <p>多需要努力的地方。</p><br>
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <br>
+        <br>
+
+        <div class="dropdown-divider"></div>
+
+        <div class="container container-max">
+
+            <div class="float-left">
+                <div class="container">
+                    <h3 style="white-space: pre">展望  </h3>
+                    <div class="h-divider"></div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
